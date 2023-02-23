@@ -15,7 +15,7 @@ public class TransactionModel implements TransactionModelCallBack {
 
 	@Override
 	public void verifyReceipant(int accNum, String ifsCode) {
-
+		//verify view
 		String branch = Branch.getBranch(ifsCode);
 		if(branch == null) {
 
